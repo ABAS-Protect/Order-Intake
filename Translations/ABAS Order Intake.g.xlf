@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="ABAS Order Intake">
+    <body>
+      <group id="body">
+        <trans-unit id="Page 1928141973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ABAS Order Intake</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - NamedType 526490114" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grand Total Amount:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - NamedType GrandTotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Control 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Control 3465500804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Month</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control Month - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Control 572629000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Week</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control Week - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Control 2832340769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control Year - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters &amp; Inclusions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Control 3063677697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Posted Credit Memos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control IncCrMemo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Control 692241425 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Posted Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control IncPostedInvoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Control 2640346082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Sales Return Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control IncRetOrd - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Control 2648731407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Sales Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control IncSalesOrd - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Control 2660029281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Posted Service Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control IncServInv - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Control 1422383977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Service Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control IncServOrd - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Action 2899936263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recalculate order intake for the last 12 months.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Action RefreshData - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Action 2899936263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Action RefreshData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1928141973 - Action 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Action Category_Process - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3410484246 - Action 3035049778 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
+          <source>Open the rolling 12-month order intake.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Order Intake Nav Ext - Action Order Intake Sales Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3410484246 - Action 3035049778 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
+          <source>ABAS Order Intake</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Order Intake Nav Ext - Action Order Intake Sales Card - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
