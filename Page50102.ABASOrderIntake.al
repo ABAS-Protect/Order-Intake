@@ -14,6 +14,7 @@ page 50102 "ABAS Order Intake"
     Caption = 'ABAS Order Intake';
     Editable = true;
     DeleteAllowed = false;
+    InherentPermissions = X;
 
     layout
     {
