@@ -44,16 +44,16 @@ page 50102 "ABAS Order Intake"
                         RefreshPageData();
                     end;
                 }
-                field(IncServInv; IncludeServiceInvoices)
-                {
-                    ApplicationArea = All;
-                    Caption = 'Include Posted Service Invoices';
+                // field(IncServInv; IncludeServiceInvoices)
+                // {
+                //     ApplicationArea = All;
+                //     Caption = 'Include Posted Service Invoices';
 
-                    trigger OnValidate()
-                    begin
-                        RefreshPageData();
-                    end;
-                }
+                //     trigger OnValidate()
+                //     begin
+                //         RefreshPageData();
+                //     end;
+                // }
                 field(IncSalesOrd; IncludeSalesOrders)
                 {
                     ApplicationArea = All;
@@ -176,7 +176,7 @@ page 50102 "ABAS Order Intake"
         GrandTotalLbl: Label 'Grand Total Amount:';
         IncludeCreditMemos: Boolean;
         IncludeServiceOrders: Boolean;
-        IncludeServiceInvoices: Boolean;
+        // IncludeServiceInvoices: Boolean;
         IncludeSalesOrders: Boolean;
         IncludePostedInvoices: Boolean;
         IncludeReturnOrders: Boolean;
@@ -188,7 +188,7 @@ page 50102 "ABAS Order Intake"
         IncludeReturnOrders := true;
         IncludeCreditMemos := true;
         IncludeServiceOrders := true;
-        IncludeServiceInvoices := true;
+        // IncludeServiceInvoices := true;
         PopulateBuffer();
     end;
 
@@ -234,8 +234,8 @@ page 50102 "ABAS Order Intake"
         if IncludeServiceOrders then
             CollectServiceOrders(StartDate, EndDate);
 
-        if IncludeServiceInvoices then
-            CollectPostedServiceInvoices(StartDate, EndDate);
+        // if IncludeServiceInvoices then
+        //     CollectPostedServiceInvoices(StartDate, EndDate);
 
         GrandTotalAmount := 0;
 
@@ -375,27 +375,27 @@ page 50102 "ABAS Order Intake"
             until H.Next() = 0;
     end;
 
-    local procedure CollectPostedServiceInvoices(StartDate: Date; EndDate: Date)
-    var
-        H: Record "Service Invoice Header";
-        L: Record "Service Invoice Line";
-        LcyAmt: Decimal;
-    begin
-        H.SetRange("Posting Date", StartDate, EndDate);
-        if H.FindSet() then
-            repeat
-                L.SetRange("Document No.", H."No.");
-                if L.FindSet() then
-                    repeat
-                        if H."Currency Factor" <> 0 then
-                            LcyAmt := L."Line Amount" / H."Currency Factor"
-                        else
-                            LcyAmt := L."Line Amount";
+    // local procedure CollectPostedServiceInvoices(StartDate: Date; EndDate: Date)
+    // var
+    //     H: Record "Service Invoice Header";
+    //     L: Record "Service Invoice Line";
+    //     LcyAmt: Decimal;
+    // begin
+    //     H.SetRange("Posting Date", StartDate, EndDate);
+    //     if H.FindSet() then
+    //         repeat
+    //             L.SetRange("Document No.", H."No.");
+    //             if L.FindSet() then
+    //                 repeat
+    //                     if H."Currency Factor" <> 0 then
+    //                         LcyAmt := L."Line Amount" / H."Currency Factor"
+    //                     else
+    //                         LcyAmt := L."Line Amount";
 
-                        AddToDict(H."Posting Date", LcyAmt);
-                    until L.Next() = 0;
-            until H.Next() = 0;
-    end;
+    //                     AddToDict(H."Posting Date", LcyAmt);
+    //                 until L.Next() = 0;
+    //         until H.Next() = 0;
+    // end;
 
     local procedure AddToDict(TargetDate: Date; Amt: Decimal)
     var

@@ -58,11 +58,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control IncSalesOrd - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1928141973 - Control 2660029281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Include Posted Service Invoices</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page ABAS Order Intake - Control IncServInv - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 1928141973 - Control 1422383977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Include Service Orders</source>
           <note from="Developer" annotates="general" priority="2"></note>
